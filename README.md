@@ -17,7 +17,8 @@ There is three filters that can be used:
 - 1. Low pass filters
   2. High pass filters
   3. notch filters
- you can use them indivitually on the GUI or use them together by utilizing the ***code block***
+
+you can use them indivitually on the GUI or use them together by utilizing the ***code block***
 
 <p align="center">
   <img src="https://github.com/Aslappyslashy/IMG/blob/main/signal%20analyzer/filter.png?raw=true" width="450" title="Filters">
