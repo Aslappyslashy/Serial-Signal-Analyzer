@@ -37,7 +37,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication([])
     
     # the actualal range of x(time) is x_range/x_factor, so by defult is 0s to 0.05s
-    main = MainWindow(data_buffer=data_buffer,sample_rate=sample_rate, x_range=(0, 50), y_range=(-500,500), x_factor=2000)
+    main = MainWindow(data_buffer=data_buffer,sample_rate=sample_rate, x_range=(0, 500), y_range=(0,1000), x_factor=1000)
     fft = FFTWindow(data_buffer=data_buffer, sample_rate=sample_rate, x_range=(0,5000), x_res=1, y_range=(0, 20), y_res=1, fps=30)
     measurements = Measurement_Window(data_buffer=data_buffer, sample_rate=sample_rate,fps=30)
 

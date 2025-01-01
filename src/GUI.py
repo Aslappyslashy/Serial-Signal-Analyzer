@@ -36,7 +36,6 @@ class MainWindow(QtWidgets.QMainWindow):
         self.Highpass = 0
         self.notch = 0
 
-
         self.setWindowTitle("Real-Time Signal Viewer")
         
 
